@@ -19,6 +19,7 @@ body {
 }
 #navbar-link a{
     font-size: 20px;
+    border-radius: 5px;
     font-family: rubik-medium;
     transition: 0.5ss;
 }
@@ -31,10 +32,12 @@ body {
     height: 538px;
     width: 100%;
     background-color: #212529;
+    transition: ;
 }
 .jumbotron h3  {
     color: white;
     font-family: rubik-medium;
+    position: relative;
 }
 .jumbotron h1 {
     font-family: rubik-bold;
@@ -70,10 +73,11 @@ body {
     color: rgb(13, 110, 255);
 }
 #about {
+    color: white;
     background-color: #0066ff;
 }
 #about img{
-    width: 350px;
+    width: 320px;
 }
 .about{
     width: 100%;
@@ -97,6 +101,9 @@ body {
 @media screen and (max-width: 768px) and (min-width: 320px) {
     .jumbotron img{
         display: none;
+    }
+    #about img{
+        width: 210px;
     }
 }
 .card {
