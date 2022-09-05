@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: rubik-bold;
     src: url(/asset/fonts/Rubik-Bold.ttf);
@@ -21,7 +22,7 @@ body {
     font-size: 20px;
     border-radius: 5px;
     font-family: rubik-medium;
-    transition: 0.5ss;
+    transition: 0.5s;
 }
 #navbar-link a:hover {
     padding: 8px;
