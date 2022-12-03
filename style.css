@@ -1,130 +1,132 @@
-
 @font-face {
-    font-family: rubik-bold;
-    src: url(/asset/fonts/Rubik-Bold.ttf);
+  font-family: rubik-bold;
+  src: url(/asset/fonts/Rubik-Bold.ttf);
 }
 @font-face {
-    font-family: rubik-medium;
-    src: url(/asset/fonts/Rubik-Medium.ttf);
+  font-family: rubik-medium;
+  src: url(/asset/fonts/Rubik-Medium.ttf);
 }
 @font-face {
-    font-family: rubik-reguler;
-    src: url(/asset/fonts/Rubik-Regular.ttf);
+  font-family: rubik-reguler;
+  src: url(/asset/fonts/Rubik-Regular.ttf);
 }
 body {
-    background-color: #212529;
+  background-color: #212529;
 }
-.navbar-brand{
-    font-family: rubik-bold;
-    font-size: 25px;
+.navbar-brand {
+  font-family: rubik-bold;
+  font-size: 25px;
 }
-#navbar-link a{
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: rubik-medium;
-    transition: 0.5s;
+#navbar-link a {
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: rubik-medium;
+  transition: 0.5s;
 }
 #navbar-link a:hover {
-    padding: 8px;
-    background-color: #0066ff;
-    border-radius: 5px;
+  padding: 8px;
+  background-color: #0066ff;
+  border-radius: 5px;
 }
 .jumbotron {
-    height: 538px;
-    width: 100%;
-    background-color: #212529;
-    transition: ;
+  height: 538px;
+  width: 100%;
+  background-color: #212529;
+  transition: ;
 }
-.jumbotron h3  {
-    color: white;
-    font-family: rubik-medium;
-    position: relative;
+.jumbotron h3 {
+  color: white;
+  font-family: rubik-medium;
+  position: relative;
 }
 .jumbotron h1 {
-    font-family: rubik-bold;
-    background: -webkit-linear-gradient(rgb(49, 214, 255), rgb(0, 94, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-family: rubik-bold;
+  background: -webkit-linear-gradient(rgb(49, 214, 255), rgb(0, 94, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.jumbotron p{
-    color: white;
-    font-family: rubik-reguler;
+.jumbotron p {
+  color: white;
+  font-family: rubik-reguler;
 }
-.jumbotron p b{
-    background: -webkit-linear-gradient(rgb(255, 49, 203), rgb(106, 0, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.jumbotron p b {
+  background: -webkit-linear-gradient(rgb(255, 49, 203), rgb(106, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .jumbotron img {
-    width: 500px;
+  width: 500px;
 }
 .contact {
-    color: white;
+  color: white;
 }
-.contact svg{
-    transition: 0.7s;
-    color: white;
-    width: 50px;
-    height: 25px;
+.contact svg {
+  transition: 0.7s;
+  color: white;
+  width: 50px;
+  height: 25px;
 }
-.button button{
-    font-family: rubik-medium;
+.button button {
+  font-family: rubik-medium;
 }
 .contact svg:hover {
-    color: rgb(13, 110, 255);
+  color: rgb(13, 110, 255);
 }
 #about {
+  color: white;
+  background-color: #0066ff;
+}
+#about img {
+  width: 320px;
+}
+.about {
+  width: 100%;
+  height: 400px;
+}
+#about h2 {
+  font-family: rubik-bold;
+}
+#about p {
+  text-align: justify;
+  line-height: 20px;
+  font-family: rubik-reguler;
+}
+#about p b {
+  background: -webkit-linear-gradient(rgb(255, 139, 6), rgb(255, 77, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron img {
+    display: none;
+  }
+  .navbar button {
+    border: none;
     color: white;
-    background-color: #0066ff;
-}
-#about img{
-    width: 320px;
-}
-.about{
-    width: 100%;
-    height: 400px;
-}
-#about h2{
-    font-family: rubik-bold;
-}
-#about p{
-    text-align: justify;
-    line-height: 20px;
-    font-family: rubik-reguler;
-}
-#about p b{
-    background: -webkit-linear-gradient(rgb(255, 139, 6), rgb(255, 77, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-@media screen and (max-width: 600px){
-    .jumbotron img{
-        display: none;
-    }
-    #about img{
-        width: 210px;
-    }
-    .card {
-        margin: auto;
-    }
+  }
+  #about img {
+    width: 150px;
+  }
+  .card {
+    margin: auto;
+  }
 }
 .card {
-    background-color: #323232;
-    box-shadow: 0px 0px 10px 0px black;
-    width: 180px;
-    height: 300px;
+  background-color: #323232;
+  box-shadow: 0px 0px 10px 0px black;
+  width: 180px;
+  height: 300px;
 }
-.card img{
-    padding: 50px;
+.card img {
+  padding: 50px;
 }
 #skill h1 {
-    font-family: rubik-bold;
-    color: white;
+  font-family: rubik-bold;
+  color: white;
 }
 footer {
-    font-family: rubik-medium;
-    background-color: #0066ff;
-    color: white;
+  font-family: rubik-medium;
+  background-color: #0066ff;
+  color: white;
 }
